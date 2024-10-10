@@ -1,3 +1,3 @@
-2 cái file exe này sẽ thay đổi nhạc nền tùy vào file cute.mp3
+3 cái file  này sẽ thay đổi nhạc nền tùy vào file cute.mp3
 cậu đổi nhạc và để tên là cute.mp3 thì nó sẽ chạy nhạc nền là bài ấy.
 Tặng cậu hehe =))
