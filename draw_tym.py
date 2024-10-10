@@ -2,20 +2,18 @@ import turtle as t
 import pygame
 from threading import Thread
 
-# Hàm để phát nhạc
 def play_music():
     pygame.mixer.init()
     pygame.mixer.music.load("cute.mp3")
     pygame.mixer.music.play(-1)  # -1 để phát nhạc lặp lại liên tục
 
-# Chạy phát nhạc song song với vẽ bằng cách sử dụng Thread
+
 music_thread = Thread(target=play_music)
 music_thread.start()
 
-# Bắt đầu vẽ với Turtle
 em = t.Turtle()
 s = t.Screen()
-s.title("Give U My Heart :3")  # Đặt tiêu đề mới cho cửa sổ Turtle
+s.title("Give U My Heart :3")  
 s.bgcolor("white")
 
 t.pensize(2)
