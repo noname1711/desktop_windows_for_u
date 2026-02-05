@@ -33,7 +33,7 @@ def love_sign():
 
 
 window = turtle.Screen()
-window.title("Tặng bạn hine =))) ")
+window.title("Tặng bạn nhỏ nhé =))) ")
 window.bgcolor('black')
 window.screensize(800, 700)
 window.setup(width=1.0, height=1.0, startx=None, starty=None)
